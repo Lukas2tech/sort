@@ -11,7 +11,7 @@ public class BubleSort {
 	
 	public static void main(String[] args) {
 		BubleSort buble = new BubleSort();
-		int[] table = buble.genTable(20000, 100);
+		int[] table = buble.genTable(10000, 100);
 		buble.printTable(table);
 		buble.sortTable(table);
 		buble.printTable(table);
